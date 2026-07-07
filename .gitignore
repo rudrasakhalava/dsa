@@ -1,0 +1,8 @@
+# 1. Ignore everything in the project
+/*
+
+# 2. Keep the .gitignore file itself so your rules are tracked
+!.gitignore
+
+# 3. Allow the specific file and folder
+!two_pointers_array/
