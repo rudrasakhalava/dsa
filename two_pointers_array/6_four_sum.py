@@ -47,9 +47,9 @@ for i in range(len(nums)-3):
                 k += 1
                 l -= 1
 
-                if nums[k] == nums[k-1]:
+                while k < l and nums[k] == nums[k-1]:
                     k += 1
-                if nums[l] == nums[l+1]:
+                while k < l and nums[l] == nums[l+1]:
                     l -= 1
             
             elif sum > target :

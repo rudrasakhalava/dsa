@@ -31,11 +31,24 @@ nums = [-1,2,1,-4]
 nums.sort()
 target = 1
 
-dif = 0
+closest = nums[0] + nums[1] + nums[2]
 
 for i in range(len(nums)-2):
     j = i + 1
     k = len(nums)-1
 
-    while j < k :
-        sum = nums[i] + nums[j] + nums[k]
+    while j < k:
+        curr = nums[i] + nums[j] + nums[k]
+
+        if abs(curr - target) < abs(closest - target):
+            closest = curr
+
+        if curr < target:
+            j += 1
+        elif curr > target:
+            k -= 1
+        else:
+            print(curr)
+            exit()
+
+print(closest)

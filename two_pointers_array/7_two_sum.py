@@ -52,18 +52,19 @@ nums = [2,4,7,10]
 k = 5
 
 i = 0
-j = len(nums) - 1
+j = 1
 
-while i < j:
-    dif = nums[j] - nums[i]
+while j < len(nums):
+    diff = nums[j] - nums[i]
 
-    if dif == k:
+    if i == j:
+        j += 1
+    elif diff == k:
         print(True)
         break
-
-    elif dif > k:
+    elif diff < k:
+        j += 1
+    else:
         i += 1
-    else :
-        j -= 1
 else:
     print(False)
