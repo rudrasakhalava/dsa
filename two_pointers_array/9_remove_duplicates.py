@@ -22,13 +22,12 @@ Modified array
 
 arr = [1,1,2,2,3,3,3,4]
 
-i = 1
+j = 1
 
-while i < len(arr):
-    if arr[i] == arr[i-1]:
-        arr.pop(i)
-    else :
-        i += 1
+for i in range(1, len(arr)):
+    if arr[i] != arr[i-1]:
+        arr[j] = arr[i]
+        j += 1
 
-print(len(arr))
-print(arr)
+print(j)
+print(arr[:j])

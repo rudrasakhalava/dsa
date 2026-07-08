@@ -28,11 +28,11 @@ j = len(arr)-1
 res = [0] * len(arr)
 position = len(arr)-1
 
-while i < j:
+while i <= j:
     i_square = arr[i] ** 2
     j_square = arr[j] ** 2
 
-    if i_square < j_square:
+    if i_square > j_square:
         res[position] = i_square
         i += 1
     else :
