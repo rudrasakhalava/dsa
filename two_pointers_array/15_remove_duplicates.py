@@ -1,5 +1,4 @@
 """
-
 Remove Duplicates from Sorted Array 
 
 Problem
