@@ -1,5 +1,4 @@
 """
-
 Merge Two Sorted Arrays 
 
 Without using extra sorting.
