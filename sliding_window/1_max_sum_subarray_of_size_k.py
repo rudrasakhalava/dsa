@@ -1,5 +1,4 @@
 """
-
 Max Sum Subarray of size K
 
 Given an array of integers arr[]  and a number k. Return the maximum sum of a subarray of size k.
