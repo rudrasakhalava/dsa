@@ -15,7 +15,6 @@ Output: 10
 Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1]
 Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
  
-
 Constraints:
 
 1 <= nums.length <= 105
