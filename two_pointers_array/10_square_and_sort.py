@@ -1,5 +1,5 @@
 """
-Problem 5: Square and Sort ⭐⭐
+Problem 5: Square and Sort
 
 Given a sorted array that may contain negative numbers.
 
