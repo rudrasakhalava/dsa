@@ -1,5 +1,5 @@
 """
-Problem 1: Pair with Given Average 
+Problem 1: Pair with Given Average
 
 Given a sorted array and a number avg, determine whether there exists a pair whose average is exactly avg.
 
