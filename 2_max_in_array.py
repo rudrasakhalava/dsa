@@ -8,4 +8,4 @@ for i in arr :
     if i > max :
         max = i
 
-print(max)
+print(max) 
