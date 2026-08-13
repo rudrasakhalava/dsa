@@ -22,7 +22,7 @@ arr = []
 i = 0
 j = 0
 
-while i <= len(arr1)-1 and i <= len(arr2)-1:
+while i <= len(arr1)-1 and j <= len(arr2)-1:
     if arr1[i] <= arr2[j]:
         arr.append(arr1[i])
         arr.append(arr2[j])
